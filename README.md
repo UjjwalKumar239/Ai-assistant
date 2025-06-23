@@ -1,11 +1,10 @@
-🧠 Virtual AI Assistant
-A full-stack AI-powered web assistant built using React, Node.js, Express, MongoDB, and Google Gemini API.
+# 🧠 Virtual AI Assistant
+**A full-stack AI-powered web assistant built using React, Node.js, Express, MongoDB, and Google Gemini API.**
 
-This assistant can listen to your voice, respond intelligently, and perform smart tasks like:
+  This assistant can listen to your voice, respond intelligently, and perform smart tasks like:
+  🔍 Searching ‧ ❓ Answering questions ‧ 🕒 Showing date/time ‧ 🌦️ Weather info ‧ and more.
 
-🔍 Searching ‧ ❓ Answering questions ‧ 🕒 Showing date/time ‧ 🌦️ Weather info ‧ and more.
-
-✨ Features
+# ✨ Features
 🔐 User Authentication (JWT + Cookies)
 
 🧑‍🎨 Assistant Personalization (Name & Image)
@@ -20,22 +19,22 @@ This assistant can listen to your voice, respond intelligently, and perform smar
 
 🎨 Modern React UI (Tailwind CSS)
 
-🛠️ Tech Stack
-🌐 Frontend
-⚛️ React + React Router DOM
+# 🛠️ Tech Stack
+ ## *🌐 Frontend*
+  ⚛️ React + React Router DOM
 
-📦 Axios
+  📦 Axios
 
-🧠 Context API
+  🧠 Context API
 
-🎨 Tailwind CSS
+  🎨 Tailwind CSS
 
-💻 Backend
-🚀 Express.js
+## *💻 Backend*
+  🚀 Express.js
 
-🍃 MongoDB + Mongoose
+  🍃 MongoDB + Mongoose
 
-🛡️ JWT + bcryptjs
+  🛡️ JWT + bcryptjs
 
 📁 Multer (for file uploads)
 
@@ -45,25 +44,37 @@ This assistant can listen to your voice, respond intelligently, and perform smar
 
 ⏱️ Moment.js (time formatting)
 
-📁 Folder Structure
-pgsql
-Copy
-Edit
-client/
+# 📁 Folder Structure
+### pgsql
+### Copy
+### Edit
+### client/
+
   ├── pages/
+  
   ├── context/
+  
   ├── App.jsx
+  
   └── index.js
 
-server/
+### server/
+
   ├── config/
+  
   ├── controllers/
+  
   ├── middlewares/
+  
   ├── models/
+  
   ├── routes/
+  
   ├── gemini.js
+  
   └── index.js
-🧪 Environment Variables
+  
+# 🧪 Environment Variables
 Create a .env file inside the server/ directory and add the following:
 
 env
@@ -76,16 +87,17 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 GEMINI_API_URL=your_gemini_api_url
-⚙️ Installation
+
+# ⚙️ Installation
 bash
 Copy
 Edit
-# Backend setup
+## Backend setup
 cd server
 npm install
 npm run dev
 
-# Frontend setup
+## Frontend setup
 cd client
 npm install
 npm run dev
