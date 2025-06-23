@@ -2,7 +2,7 @@
 A full-stack AI-powered web assistant built using React, Node.js, Express, MongoDB, and Google Gemini API.
 This assistant can listen to your voice, respond intelligently, and perform smart tasks like:
 
-🔍 Searching, ❓ Answering general questions, 🕒 Showing time/date/day/month, 🌦️ Weather info, and much more.
+🔍 Searching   ❓ Answering general questions   🕒 Showing time/date/day/month   🌦️ Weather info & more
 
 ✨ Features
 🔐 User Authentication (JWT + Cookies)
@@ -63,7 +63,7 @@ server/
   ├── gemini.js
   └── index.js
 🧪 Environment Variables
-Create a .env file in your server/ directory with:
+Create a .env file in the server/ directory with the following:
 
 ini
 Copy
