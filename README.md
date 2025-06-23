@@ -1,23 +1,24 @@
 🧠 Virtual AI Assistant
 A full-stack AI-powered web assistant built using React, Node.js, Express, MongoDB, and Google Gemini API.
+
 This assistant can listen to your voice, respond intelligently, and perform smart tasks like:
 
-🔍 Searching   ❓ Answering general questions   🕒 Showing time/date/day/month   🌦️ Weather info & more
+🔍 Searching ‧ ❓ Answering questions ‧ 🕒 Showing date/time ‧ 🌦️ Weather info ‧ and more.
 
 ✨ Features
 🔐 User Authentication (JWT + Cookies)
 
-🧑‍🎨 Assistant Personalization (Set Name & Image)
+🧑‍🎨 Assistant Personalization (Name & Image)
 
 🤖 Gemini AI Integration (Intent-based AI responses)
 
 🗣️ Voice-enabled Input/Output
 
-🕘 Command History per user
+🕘 Command History per User
 
 ☁️ Cloudinary Image Upload
 
-🖥️ Modern UI with TailwindCSS
+🎨 Modern React UI (Tailwind CSS)
 
 🛠️ Tech Stack
 🌐 Frontend
@@ -29,20 +30,20 @@ This assistant can listen to your voice, respond intelligently, and perform smar
 
 🎨 Tailwind CSS
 
-🖥️ Backend
+💻 Backend
 🚀 Express.js
 
 🍃 MongoDB + Mongoose
 
-🛡️ JWT + bcryptjs (Auth)
+🛡️ JWT + bcryptjs
 
-📁 Multer (Image upload)
+📁 Multer (for file uploads)
 
-🌩️ Cloudinary (Image hosting)
+🌩️ Cloudinary (image hosting)
 
 🧠 Gemini API (AI logic)
 
-🕰️ Moment.js (Time formatting)
+⏱️ Moment.js (time formatting)
 
 📁 Folder Structure
 pgsql
@@ -63,9 +64,9 @@ server/
   ├── gemini.js
   └── index.js
 🧪 Environment Variables
-Create a .env file in the server/ directory with the following:
+Create a .env file inside the server/ directory and add the following:
 
-ini
+env
 Copy
 Edit
 PORT=5000
